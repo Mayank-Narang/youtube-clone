@@ -1,0 +1,96 @@
+a{
+    text-decoration: none;
+    color: grey;
+}
+.video-grid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: column;
+    flex-wrap: wrap;
+}
+.video-preview{
+    flex-basis: 30%;
+    height: 270px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.vid-img{
+    width: 275px;
+    border-radius: 5px;
+}
+.for-time{
+    position: relative;
+}
+.time{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    font-size: 12px;
+    color: white;
+    padding: 3px 3px;
+    background-color: black;
+    border-radius: 3px;
+}
+.bottom{
+    display: flex;
+}
+.channel{
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 5px;
+    width: 50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+.magic{
+    position: relative;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    transition:all 0.5s;
+}
+.magic:hover .pop{
+    opacity: 1;
+}
+.pop{
+    position: absolute;
+    color: black;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.25s;
+    pointer-events: none;
+    border-radius: 4px;
+    padding: 2px 5px;
+    bottom: -80px;
+    right:  -200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+.pop img{
+    width:  50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.channel-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+}
+.vid-title{
+    font-size: 14px;
+    font-weight: bold;
+}
+.channel-name{
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.stats{
+    margin-top: 5px;
+    font-size: 13px;
+    color: grey;
+}

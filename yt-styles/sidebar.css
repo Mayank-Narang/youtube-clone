@@ -1,0 +1,26 @@
+.side-bar{
+    background-color: white;
+    position: fixed;
+    top:    56px;
+    left: 0px;
+    bottom: 0px;
+    width: 75px;
+}
+.side-bar img{
+    width: 25px;
+}
+.side-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.side-button:hover {
+    transform: background-color 0.25s;
+    border-radius: 15px;
+    background-color: rgb(236, 236, 236);
+}
